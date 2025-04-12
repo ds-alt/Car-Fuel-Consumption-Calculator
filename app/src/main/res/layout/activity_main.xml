@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autofillHints=""
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/distanceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/enter_distance_km"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#DD2C00"
+        android:textStyle="normal"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/fuelPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/enter_fuel_price_per_liter"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#DD2C00"
+        android:textStyle="normal"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Fuel Consumption Radio Buttons -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_fuel_consumption_l_100km"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/fuelConsumptionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/consumption5RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_5_l_100km_very_efficient_small_cars"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/consumption6RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_6_l_100km_compact_fuel_efficient_cars_1_0l_1_4l_engines"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/consumption7RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_7_l_100km_medium_sized_cars_1_5l_1_9l_engines"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/consumption8RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_8_l_100km_medium_to_larger_vehicles_2_0l_2_4l_engines"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/consumption9RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_9_l_100km_suvs_and_larger_vehicles_2_5l_engines"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/consumption10RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/_10_l_100km_powerful_engines_large_vehicles_2_5l_engines"
+            tools:ignore="VisualLintButtonSize" />
+    </RadioGroup>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/calculate"
+        android:layout_marginTop="16dp" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/results_will_appear_here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

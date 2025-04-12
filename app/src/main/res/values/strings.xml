@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fuel Consumption Calculator</string>
+    <string name="select_fuel_consumption_l_100km">Select fuel consumption (L/100km):</string>
+    <string name="calculate">Calculate</string>
+    <string name="_10_l_100km_powerful_engines_large_vehicles_2_5l_engines">10 L/100km (Powerful engines, large vehicles, 2.5L+ engines)</string>
+    <string name="_5_l_100km_very_efficient_small_cars">5 L/100km (Very efficient, small cars)</string>
+    <string name="_6_l_100km_compact_fuel_efficient_cars_1_0l_1_4l_engines">6 L/100km (Compact, fuel-efficient cars, 1.0L - 1.4L engines)</string>
+    <string name="_7_l_100km_medium_sized_cars_1_5l_1_9l_engines">7 L/100km (Medium-sized cars, 1.5L - 1.9L engines)</string>
+    <string name="_8_l_100km_medium_to_larger_vehicles_2_0l_2_4l_engines">8 L/100km (Medium to larger vehicles, 2.0L - 2.4L engines)</string>
+    <string name="_9_l_100km_suvs_and_larger_vehicles_2_5l_engines">9 L/100km (SUVs and larger vehicles, 2.5L engines)</string>
+    <string name="enter_distance_km">Enter distance (km)</string>
+    <string name="enter_fuel_price_per_liter">Enter fuel price per liter</string>
+    <string name="results_will_appear_here">Results will appear here</string>
+    <string name="car_fuel_consumption">CAR FUEL CONSUMPTION</string>
+</resources>
